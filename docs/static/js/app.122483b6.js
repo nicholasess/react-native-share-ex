@@ -35,7 +35,7 @@
           },
           'Install.mdx': {
             name: '2 - Install Module',
-            route: 'install',
+            route: '/install',
             id: '9abef84ef79c895920165f2bfd910798',
             filepath: 'Install.mdx',
             link:
