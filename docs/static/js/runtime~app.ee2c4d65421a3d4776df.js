@@ -42,7 +42,7 @@
           u.nc && c.setAttribute('nonce', u.nc),
           (c.src = (function(e) {
             return (
-              u.p +
+              
               'static/js/' +
               ({ 1: 'troubleshooting', 2: 'install', 3: 'usage', 4: 'welcome', 5: 'method' }[e] ||
                 e) +
