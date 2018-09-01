@@ -43,7 +43,7 @@
           (c.src = (function(e) {
             return (
               
-              'static/js/' +
+              'https://nicholasess.github.io/react-native-share-ex/static/js/' +
               ({ 1: 'troubleshooting', 2: 'install', 3: 'usage', 4: 'welcome', 5: 'method' }[e] ||
                 e) +
               '.' +
