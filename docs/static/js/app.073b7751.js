@@ -4,7 +4,7 @@
     './.docz/app/db.json': function(e) {
       e.exports = {
         config: {
-          title: 'react-native-share',
+          title: 'react-native-share-ex',
           description: 'Social share, sending simple data to other apps.',
           themeConfig: {},
           ordering: 'ascending',
@@ -14,7 +14,7 @@
           src: './documentation',
           dest: './docs',
           hashRouter: !0,
-          base: '/react-native-share/',
+          base: '/react-native-share-ex/',
         },
         entries: {
           'Install.mdx': {

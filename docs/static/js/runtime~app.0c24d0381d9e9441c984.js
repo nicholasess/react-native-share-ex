@@ -116,7 +116,7 @@
     (u.o = function(e, t) {
       return Object.prototype.hasOwnProperty.call(e, t);
     }),
-    (u.p = '/react-native-share/'),
+    (u.p = '/react-native-share-ex/'),
     (u.oe = function(e) {
       throw (console.error(e), e);
     });
