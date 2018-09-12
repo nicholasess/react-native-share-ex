@@ -1,7 +1,13 @@
-const doczPluginGithubPage = require('docz-plugin-github-page');
+import pkg from './package.json';
+
+const libName = pkg.name;
+
 export default {
   src: './documentation',
-  base: '/react-native-share-ex/',
+  dest: './docs',
+  title: libName,
   hashRouter: true,
-  plugins: [doczPluginGithubPage()],
+  base: `/${libName}/`,
+  ordering: 'ascending',
+  description: pkg.description,
 };
