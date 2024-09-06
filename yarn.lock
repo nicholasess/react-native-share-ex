@@ -2122,7 +2122,7 @@
   dependencies:
     unist-util-visit "^1.3.0"
 
-"@mdx-js/tag@^0.15.0", "@mdx-js/tag@^0.15.0-2":
+"@mdx-js/tag@^0.15.0":
   version "0.15.0"
   resolved "https://registry.yarnpkg.com/@mdx-js/tag/-/tag-0.15.0.tgz#a98949206cc21b27a56a11550b41229631eb8b1c"
   dependencies:
@@ -4055,10 +4055,6 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@^2.2.5:
-  version "2.2.6"
-  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
-
 clean-css@4.2.x:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-4.2.1.tgz#2d411ef76b8569b6d0c84068dabe85b0aa5e5c17"
@@ -4135,7 +4131,7 @@ code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
 
-codemirror@^5.18.2, codemirror@^5.39.2, codemirror@^5.40.0:
+codemirror@^5.40.0:
   version "5.40.0"
   resolved "https://registry.yarnpkg.com/codemirror/-/codemirror-5.40.0.tgz#2f5ed47366e514f41349ba0fe34daaa39be4e257"
 
@@ -4489,20 +4485,13 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-create-react-class@^15.5.1, create-react-class@^15.6.3:
+create-react-class@^15.6.3:
   version "15.6.3"
   resolved "https://registry.yarnpkg.com/create-react-class/-/create-react-class-15.6.3.tgz#2d73237fb3f970ae6ebe011a9e66f46dbca80036"
   dependencies:
     fbjs "^0.8.9"
     loose-envify "^1.3.1"
     object-assign "^4.1.1"
-
-create-react-context@0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/create-react-context/-/create-react-context-0.2.2.tgz#9836542f9aaa22868cd7d4a6f82667df38019dca"
-  dependencies:
-    fbjs "^0.8.0"
-    gud "^1.0.0"
 
 create-react-context@^0.2.2, create-react-context@^0.2.3:
   version "0.2.3"
@@ -4942,35 +4931,6 @@ docz-plugin-github-page@^1.0.4:
     directory-exists "^2.0.0"
     docz-core "^0.10.3"
 
-docz-theme-default@^0.10.3:
-  version "0.10.3"
-  resolved "https://registry.yarnpkg.com/docz-theme-default/-/docz-theme-default-0.10.3.tgz#f94e514c120429a3beab5622cf5504fb74026c00"
-  dependencies:
-    codemirror "^5.39.2"
-    copy-text-to-clipboard "^1.0.4"
-    docz "^0.10.3"
-    emotion "^9.2.6"
-    emotion-theming "^9.2.6"
-    facepaint "^1.2.1"
-    hotkeys-js "^3.3.5"
-    lodash.get "^4.4.2"
-    match-sorter "^2.2.3"
-    polished "^1.9.3"
-    pretty "^2.0.0"
-    prop-types "15.6.2"
-    re-resizable "^4.7.1"
-    react "^16.4.2"
-    react-adopt "^0.6.0"
-    react-breakpoints "^3.0.0"
-    react-codemirror "^1.0.0"
-    react-dom "^16.4.2"
-    react-emotion "^9.2.6"
-    react-feather "^1.1.1"
-    react-lightweight-tooltip "^1.0.0"
-    react-live "^1.11.0"
-    react-powerplug "^1.0.0-rc.1"
-    webfontloader "^1.6.28"
-
 docz-theme-default@^0.11.2:
   version "0.11.2"
   resolved "https://registry.yarnpkg.com/docz-theme-default/-/docz-theme-default-0.11.2.tgz#288bd7fb5b67467c685460dc18b1ea0eb2e2ce40"
@@ -4999,28 +4959,6 @@ docz-theme-default@^0.11.2:
     react-powerplug "^1.0.0-rc.1"
     react-sizes "^1.0.4"
     webfontloader "^1.6.28"
-
-docz@^0.10.3:
-  version "0.10.3"
-  resolved "https://registry.yarnpkg.com/docz/-/docz-0.10.3.tgz#ab1b251a7db44e86b1cac1b419b9722fdbb44867"
-  dependencies:
-    "@mdx-js/tag" "^0.15.0-2"
-    "@sindresorhus/slugify" "^0.3.0"
-    array-sort "^1.0.0"
-    capitalize "^1.0.0"
-    create-react-context "^0.2.2"
-    deepmerge "^2.1.1"
-    docz-core "^0.10.3"
-    docz-theme-default "^0.10.3"
-    prop-types "^15.6.2"
-    react "^16.4.2"
-    react-copy-write "^0.7.0"
-    react-dom "^16.4.2"
-    react-imported-component "^4.6.2"
-    react-router "^4.3.1"
-    react-router-dom "^4.3.1"
-    react-router-hash-link "^1.2.0"
-    yargs "^12.0.1"
 
 docz@^0.11.2:
   version "0.11.2"
@@ -5149,7 +5087,7 @@ emotion-theming@^9.2.6:
   dependencies:
     hoist-non-react-statics "^2.3.1"
 
-emotion@^9.2.6, emotion@^9.2.8:
+emotion@^9.2.8:
   version "9.2.8"
   resolved "https://registry.yarnpkg.com/emotion/-/emotion-9.2.8.tgz#b89e754be1a109f4e47ff0031928f94e40d7984a"
   dependencies:
@@ -6310,10 +6248,6 @@ hmac-drbg@^1.0.0:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
-hoist-non-react-statics@2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-2.5.0.tgz#d2ca2dfc19c5a91c5a6615ce8e564ef0347e2a40"
-
 hoist-non-react-statics@^2.3.1, hoist-non-react-statics@^2.5.0, hoist-non-react-statics@^2.5.5:
   version "2.5.5"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-2.5.5.tgz#c5903cf409c0dfd908f388e619d86b9c1174cb47"
@@ -6338,10 +6272,6 @@ homedir-polyfill@^1.0.1:
 hosted-git-info@^2.1.4:
   version "2.7.1"
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.7.1.tgz#97f236977bd6e125408930ff6de3eec6281ec047"
-
-hotkeys-js@^3.3.5:
-  version "3.3.7"
-  resolved "https://registry.yarnpkg.com/hotkeys-js/-/hotkeys-js-3.3.7.tgz#dc927b564c7334399da87c0dc6fc076484ae6fa5"
 
 hotkeys-js@^3.3.7:
   version "3.3.8"
@@ -7361,7 +7291,7 @@ lodash.camelcase@4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/lodash.camelcase/-/lodash.camelcase-4.3.0.tgz#b28aa6288a2b9fc651035c7711f65ab6190331a6"
 
-lodash.debounce@4.0.8, lodash.debounce@^4.0.8:
+lodash.debounce@^4.0.8:
   version "4.0.8"
   resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
 
@@ -7376,10 +7306,6 @@ lodash.flatten@^4.4.0:
 lodash.get@^4.4.2:
   version "4.4.2"
   resolved "https://registry.yarnpkg.com/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
-
-lodash.isequal@^4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/lodash.isequal/-/lodash.isequal-4.5.0.tgz#415c4478f2bcc30120c22ce10ed3226f7d3e18e0"
 
 lodash.iteratee@^4.5.0:
   version "4.7.0"
@@ -7584,7 +7510,7 @@ markdown-table@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/markdown-table/-/markdown-table-0.4.0.tgz#890c2c1b3bfe83fb00e4129b8e4cfe645270f9d1"
 
-match-sorter@^2.2.3, match-sorter@^2.3.0:
+match-sorter@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/match-sorter/-/match-sorter-2.3.0.tgz#99eaf386689f75bf976f6bbf7f49afb9a7ffecc8"
   dependencies:
@@ -8832,10 +8758,6 @@ pluralize@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-7.0.0.tgz#298b89df8b93b0221dbf421ad2b1b1ea23fc6777"
 
-polished@^1.9.3:
-  version "1.9.3"
-  resolved "https://registry.yarnpkg.com/polished/-/polished-1.9.3.tgz#d61b8a0c4624efe31e2583ff24a358932b6b75e1"
-
 polished@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/polished/-/polished-2.0.3.tgz#54bb5f474bebe149e760d4015ed04207817fd38e"
@@ -8935,7 +8857,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@*, prop-types@15.6.2, prop-types@^15.5.4, prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2:
+prop-types@*, prop-types@15.6.2, prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2:
   version "15.6.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.2.tgz#05d5ca77b4453e985d60fc7ff8c859094a497102"
   dependencies:
@@ -9065,25 +8987,9 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-re-resizable@^4.7.1, re-resizable@^4.8.1:
+re-resizable@^4.8.1:
   version "4.8.1"
   resolved "https://registry.yarnpkg.com/re-resizable/-/re-resizable-4.8.1.tgz#1edc294e7ba9effcd31c2a134d9f825d62c1ec6c"
-
-react-adopt@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/react-adopt/-/react-adopt-0.6.0.tgz#e5ff903a655d3082217f82bc9d5033a4b64fafad"
-  dependencies:
-    hoist-non-react-statics "^2.5.0"
-    react "^16.3.2"
-    react-display-name "^0.2.4"
-
-react-breakpoints@^3.0.0:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/react-breakpoints/-/react-breakpoints-3.0.2.tgz#0a36bcfe298b6888194532d64f52e5f9a067772b"
-  dependencies:
-    create-react-context "0.2.2"
-    hoist-non-react-statics "2.5.0"
-    lodash.debounce "4.0.8"
 
 react-clone-referenced-element@^1.0.1:
   version "1.0.1"
@@ -9092,25 +8998,6 @@ react-clone-referenced-element@^1.0.1:
 react-codemirror2@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/react-codemirror2/-/react-codemirror2-5.1.0.tgz#62de4460178adea40eb52eabf7491669bf3794b8"
-
-react-codemirror@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/react-codemirror/-/react-codemirror-1.0.0.tgz#91467b53b1f5d80d916a2fd0b4c7adb85a9001ba"
-  dependencies:
-    classnames "^2.2.5"
-    codemirror "^5.18.2"
-    create-react-class "^15.5.1"
-    lodash.debounce "^4.0.8"
-    lodash.isequal "^4.5.0"
-    prop-types "^15.5.4"
-
-react-copy-write@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/react-copy-write/-/react-copy-write-0.7.0.tgz#7ce2b61b656aed08ac920a0607d6902a6080f525"
-  dependencies:
-    fbjs "^0.8.16"
-    immer "^1.2.1"
-    invariant "^2.2.4"
 
 react-copy-write@^0.8.0:
   version "0.8.0"
@@ -9155,10 +9042,6 @@ react-devtools-core@3.1.0:
     shell-quote "^1.6.1"
     ws "^2.0.3"
 
-react-display-name@^0.2.4:
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/react-display-name/-/react-display-name-0.2.4.tgz#e2a670b81d79a2204335510c01246f4c92ff12cf"
-
 react-docgen-typescript-loader@^2.1.1:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/react-docgen-typescript-loader/-/react-docgen-typescript-loader-2.2.0.tgz#20d1f9e60e6209013036e28e8acd4eee5bb4c3dd"
@@ -9199,16 +9082,7 @@ react-dom@^16.3.1, react-dom@^16.5.0:
     prop-types "^15.6.2"
     schedule "^0.3.0"
 
-react-dom@^16.4.2:
-  version "16.4.2"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.4.2.tgz#4afed569689f2c561d2b8da0b819669c38a0bda4"
-  dependencies:
-    fbjs "^0.8.16"
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-    prop-types "^15.6.0"
-
-react-emotion@^9.2.6, react-emotion@^9.2.8:
+react-emotion@^9.2.8:
   version "9.2.8"
   resolved "https://registry.yarnpkg.com/react-emotion/-/react-emotion-9.2.8.tgz#e4e24540bdcb7daacf87c405760ed619bddbb61b"
   dependencies:
@@ -9218,10 +9092,6 @@ react-emotion@^9.2.6, react-emotion@^9.2.8:
 react-error-overlay@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-4.0.1.tgz#417addb0814a90f3a7082eacba7cee588d00da89"
-
-react-feather@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/react-feather/-/react-feather-1.1.1.tgz#dd59143af457601e68f2cd3bf32c0d94d30f89e7"
 
 react-feather@^1.1.3:
   version "1.1.3"
@@ -9429,15 +9299,6 @@ react@^16.3.1, react@^16.5.0:
     object-assign "^4.1.1"
     prop-types "^15.6.2"
     schedule "^0.3.0"
-
-react@^16.3.2, react@^16.4.2:
-  version "16.4.2"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.4.2.tgz#2cd90154e3a9d9dd8da2991149fdca3c260e129f"
-  dependencies:
-    fbjs "^0.8.16"
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-    prop-types "^15.6.0"
 
 read-pkg-up@^1.0.1:
   version "1.0.1"
